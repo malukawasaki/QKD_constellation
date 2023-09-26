@@ -1,0 +1,28 @@
+% European ground stations
+Oberpfaffenhofen_gs = groundStation(sc, lat = 48.0744, long = 11.2622, MinElevationAngle=10,Name="Oberpfaffenhofen");
+Almeria_gs = groundStation(sc, lat = 36.8381, long = -2.4597, MinElevationAngle=10,Name="Almeria");
+Nemea_gs = groundStation(sc, lat = 37.8206, long = 22.6610, MinElevationAngle=10,Name="Nemea");
+Crete_gs = groundStation(sc, lat = 35.1558, long = 24.8950, MinElevationAngle=10,Name="Crete");
+TheHague_gs = groundStation(sc, lat = 52.0706, long = 4.3129, MinElevationAngle=10,Name="TheHague");
+% Check if this is the Vienna one:
+Graz_gs = groundStation(sc, lat = 47.0766, long = 15.4213, MinElevationAngle=10,Name="Graz");
+
+
+% US ground stations
+
+short piece of code trial:
+
+i = 1
+while i < 19:
+	j = 1;
+	if j == i:
+		pass
+	else:
+		while j < 19:
+			pointAt(gimbalGsi,satj);
+			pointAt(gimbalSatiTx,satj);
+			pointAt(gimbalSatiRx,satj);
+			pointAt(gimbalSatiTx,gsj);
+			pointAt(gimbalGsi,satj);
+			j = j + 1;
+	
