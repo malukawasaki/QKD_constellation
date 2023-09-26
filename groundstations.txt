@@ -9,20 +9,6 @@ Graz_gs = groundStation(sc, lat = 47.0766, long = 15.4213, MinElevationAngle=10,
 
 
 % US ground stations
-
-short piece of code trial:
-
-i = 1
-while i < 19:
-	j = 1;
-	if j == i:
-		pass
-	else:
-		while j < 19:
-			pointAt(gimbalGsi,satj);
-			pointAt(gimbalSatiTx,satj);
-			pointAt(gimbalSatiRx,satj);
-			pointAt(gimbalSatiTx,gsj);
-			pointAt(gimbalGsi,satj);
-			j = j + 1;
-	
+Wrightwood_gs = groundStation(sc, lat = 34.3534, long = -117.6241, MinElevationAngle=10,Name="Wrightwood");
+WhiteSands_gs = groundStation(sc, lat = 32.7797, long = -106.1716, MinElevationAngle=10,Name="WhiteSands");
+% Hawaii_gs is already on the code
