@@ -20,4 +20,5 @@ Limassol_gs = groundStation(sc, lat = 34.707130, long = 33.022617, MinElevationA
 % US ground stations
 Wrightwood_gs = groundStation(sc, lat = 34.3534, long = -117.6241, MinElevationAngle=10,Name="Wrightwood");
 WhiteSands_gs = groundStation(sc, lat = 32.7797, long = -106.1716, MinElevationAngle=10,Name="WhiteSands");
+X-lumin_gs = groundStation(sc, lat = 28.4703, long = -80.71056564849192, MinElevationAngle=10,Name="X-lumin");
 % Hawaii_gs is already on the code
