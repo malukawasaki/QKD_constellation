@@ -4,9 +4,18 @@ Almeria_gs = groundStation(sc, lat = 36.8381, long = -2.4597, MinElevationAngle=
 Nemea_gs = groundStation(sc, lat = 37.8206, long = 22.6610, MinElevationAngle=10,Name="Nemea");
 Crete_gs = groundStation(sc, lat = 35.1558, long = 24.8950, MinElevationAngle=10,Name="Crete");
 TheHague_gs = groundStation(sc, lat = 52.0706, long = 4.3129, MinElevationAngle=10,Name="TheHague");
-% Check if this is the Vienna one:
 Graz_gs = groundStation(sc, lat = 47.0766, long = 15.4213, MinElevationAngle=10,Name="Graz");
 
+% New ones:
+Cork_gs = groundStation(sc, lat = 51.903614, long = -8.468399, MinElevationAngle=10,Name="Cork");
+Budapest_gs = groundStation(sc, lat = 47.497913, long = 19.040236, MinElevationAngle=10,Name="Budapest");
+Rijeka_gs = groundStation(sc, lat = 45.328979, long = 14.457664, MinElevationAngle=10,Name="Rijeka");
+Valetta_gs = groundStation(sc, lat = 35.884445, long = 14.506944, MinElevationAngle=10,Name="Valetta");
+Matera_gs = groundStation(sc, lat = 40.666668, long = 16.600000, MinElevationAngle=10,Name="Matera");
+ClujNapoca_gs = groundStation(sc, lat = 46.770439, long = 23.591423, MinElevationAngle=10,Name="ClujNapoca");
+Bucharest_gs = groundStation(sc, lat = 44.439663, long = 26.096306, MinElevationAngle=10,Name="Bucharest");
+Thessaloniki_gs = groundStation(sc, lat = 40.629269, long = 22.947412, MinElevationAngle=10,Name="Thessaloniki");
+Limassol_gs = groundStation(sc, lat = 34.707130, long = 33.022617, MinElevationAngle=10,Name="Limassol");
 
 % US ground stations
 Wrightwood_gs = groundStation(sc, lat = 34.3534, long = -117.6241, MinElevationAngle=10,Name="Wrightwood");
